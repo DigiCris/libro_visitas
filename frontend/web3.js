@@ -9,7 +9,7 @@ const reloadButton = document.getElementById('reload');
 const submitButton = document.getElementById('submit');
 let account;
 let web3;
-let contract_addr = '0x0b18064A4Ac0c5C3edEF5E5FD28645787c08bba2';
+let contract_addr = '0x6375253F3d4449022987710D4DDDAc79aA10E9fe';
 let contract_abi = [{"inputs":[],"name":"getData","outputs":[{"components":[{"internalType":"string","name":"mens","type":"string"},{"internalType":"address","name":"eoa","type":"address"}],"internalType":"struct visita.Data[]","name":"","type":"tuple[]"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"mensajes","outputs":[{"internalType":"string","name":"mens","type":"string"},{"internalType":"address","name":"eoa","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"string","name":"_msg","type":"string"}],"name":"setData","outputs":[],"stateMutability":"nonpayable","type":"function"}];
 let contract;
 let confirmaciones=0;
